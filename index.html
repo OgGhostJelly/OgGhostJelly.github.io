@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/CSS/blacknwhite.css">
+        <link rel="shortcut icon" href="/IMG/index/favicon.gif" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta property="og:title" content="OgGhostJelly Hangout">
+        <meta property="og:description" content="ebic cool websiiii!!!!!!">
+        <meta property="og:image" content="/IMG/index/favicon.gif">
+
+        <title>OgGhostJelly Hangout</title>
+
+        <style>
+            .link-icon-container {
+                float: right;
+                margin-right: 10%;
+            }
+            .link-icon {
+                width: 50px;
+                height: 38px;
+            }
+            .website {
+                width: 150px;
+                height: 150px;
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--link icon-->
+        <h1 class="main-header">
+            OgGhostJelly Hangout
+            
+            <div class="link-icon-container"></div>
+            <script>
+                let link = [
+                    { link: 'https://github.com/OgGhostJelly', src: 'github.png' },
+                    { link: 'https://ogghostjelly.itch.io/', src: 'itch.png' },
+                    { link: 'https://scratch.mit.edu/users/OgGhostJelly/', src: 'scratch.png' },
+                    { link: 'https://www.youtube.com/channel/UCD1IYOrmoXBFBArQ4lSxUYQ', src: 'youtube.png' },
+                    { link: 'https://coderserif.github.io', src: 'serif.png' },
+                ]
+            </script>
+            <script src="/JS/index/link-icon-generator.js"></script>
+        </h1>
+        <!--websites-->
+        <div class="website-container"></div>
+        <script>
+            let web = [
+                { link: '/', src: 'old-favicon.gif' },
+            ]
+        </script>
+        <script src="/JS/index/website-generator.js"></script>
+    </body>
+</html>

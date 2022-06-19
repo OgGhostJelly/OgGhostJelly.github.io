@@ -1,0 +1,12 @@
+@font-face { font-family: pixel; src: url("/FONT/pixel.otf"); }
+body {
+    margin-left: 10%;
+    background:url('/IMG/index/bg.png');
+    color: white;
+    font-family: pixel
+}
+.main-header {
+    font-size: 75px;
+    margin-top: 4%;
+    display:inline;
+}
