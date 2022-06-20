@@ -1,0 +1,58 @@
+.link-icon-container {
+    float: right;
+    margin-right: 10%;
+}
+.link-icon {
+    user-select: none;
+    width: 3.5vw;
+    height: 2.5vw;
+    scale: 100%;
+    transition: scale 0.5s;
+}
+.link-icon:hover {
+    scale: 115%;
+}
+.link-icon:active {
+    transition: scale 0.2s;
+    scale: 95%;
+}
+
+.website-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 9vw;
+    margin-top: 6vw;
+}
+.website {
+    user-select: none;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 1vw;
+    transition: border-radius 0.5s;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.website:hover {
+    border-radius: 100%;
+}
+.website:active {
+    scale: 95%;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.drag {
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    cursor: pointer;
+    border-radius: 2vw;
+    scale: 100%;
+    transition: scale 0.5s;
+}
+.drag:hover {
+    scale: 115%;
+}

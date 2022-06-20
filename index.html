@@ -5,7 +5,10 @@
 <!DOCTYPE html>
 <html lang ="en">
     <head>
+        <script src="/JS/handheld-detector.js"></script><script>DetectHandHeld('/MOBILE/index.html')</script>
+
         <link rel="stylesheet" type="text/css" href="/CSS/blacknwhite.css">
+        <link rel="stylesheet" type="text/css" href="/CSS/index.css">
         <link rel="shortcut icon" href="/IMG/index/favicon.gif" type="image/x-icon">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,67 +17,6 @@
         <meta property="og:image" content="/IMG/index/favicon.gif">
 
         <title>OgGhostJelly Hangout</title>
-
-        <style>
-            .link-icon-container {
-                float: right;
-                margin-right: 10%;
-            }
-            .link-icon {
-                user-select: none;
-                width: 3.5vw;
-                height: 2.5vw;
-                scale: 100%;
-                transition: scale 0.5s;
-            }
-            .link-icon:hover {
-                scale: 115%;
-            }
-            .link-icon:active {
-                transition: scale 0.2s;
-                scale: 95%;
-            }
-
-            .website-container {
-                display: flex;
-                justify-content: center;
-                flex-wrap: wrap;
-                margin-right: 9vw;
-                margin-top: 6vw;
-            }
-            .website {
-                user-select: none;
-                width: 9vw;
-                height: 9vw;
-                border-radius: 1vw;
-                transition: border-radius 0.5s;
-                margin-left: 0.5vw;
-                margin-right: 0.5vw;
-            }
-            .website:hover {
-                border-radius: 100%;
-            }
-            .website:active {
-                scale: 95%;
-            }
-            .break {
-                flex-basis: 100%;
-                height: 0;
-            }
-
-            .drag {
-                position: absolute;
-                width: 4.5vw;
-                height: 4.5vw;
-                cursor: pointer;
-                border-radius: 2vw;
-                scale: 100%;
-                transition: scale 0.5s;
-            }
-            .drag:hover {
-                scale: 115%;
-            }
-        </style>
     </head>
     <body>
         <!--Settings-->
@@ -111,4 +53,3 @@
         <script src="/JS/dragabble.js"></script><script>dragElement(document.getElementsByClassName('drag')[0])</script>
     </body>
 </html>
-<script src="/JS/handheld-detector.js"></script><script>DetectHandHeld('/MOBILE/index.html')</script>
