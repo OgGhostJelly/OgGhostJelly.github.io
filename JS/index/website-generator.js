@@ -15,6 +15,7 @@ for(let i in web){
 
     let img = document.createElement('img')
     img.className = 'website'
+    img.setAttribute('title-text',web[i].title_text)
     img.src = website_directory + web[i].src
     a.appendChild(img)
 }
