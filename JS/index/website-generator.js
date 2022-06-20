@@ -1,8 +1,17 @@
 let website_directory = '/IMG/index/website/'
+let website_container = document.getElementsByClassName('website-container')[0]
 for(let i in web){
+    if(web[i].break==true){
+        let br = document.createElement('p')
+        br.setAttribute('class','break')
+        website_container.appendChild(br)
+        
+        continue;
+    }
+
     let a = document.createElement('a')
     a.href = web[i].link
-    document.getElementsByClassName('website-container')[0].appendChild(a)
+    website_container.appendChild(a)
 
     let img = document.createElement('img')
     img.className = 'website'

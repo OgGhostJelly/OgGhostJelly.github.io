@@ -6,7 +6,9 @@ body {
     font-family: pixel
 }
 .main-header {
-    font-size: 75px;
+    user-select: none;
+    font-size: 5vw;
     margin-top: 4%;
     display:inline;
+    cursor: default;
 }
