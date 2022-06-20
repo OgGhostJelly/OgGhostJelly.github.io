@@ -2,11 +2,9 @@ let website_directory = '/IMG/index/website/'
 let website_container = document.getElementsByClassName('website-container')[0]
 for(let i in web){
     if(web[i].break==true){
-        let br = document.createElement('p')
-        br.setAttribute('class','break')
-        website_container.appendChild(br)
-        
-        continue;
+        website_container.appendChild(document.createElement('br'))
+
+        continue
     }
 
     let a = document.createElement('a')

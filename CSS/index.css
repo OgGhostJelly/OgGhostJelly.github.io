@@ -18,8 +18,8 @@
 }
 
 .website-container {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     flex-wrap: wrap;
     margin-right: 9vw;
     margin-top: 6vw;
@@ -27,14 +27,14 @@
 .website {
     user-select: none;
     width: 9vw;
+    transition: width 0.5s;
     height: 9vw;
     border-radius: 1vw;
-    transition: border-radius 0.5s;
-    margin-left: 0.5vw;
     margin-right: 0.5vw;
+    margin-left: 0.5vw;
 }
 .website:hover {
-    border-radius: 100%;
+    width: 11vw;
 }
 .website:active {
     scale: 95%;
