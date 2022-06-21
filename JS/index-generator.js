@@ -24,7 +24,7 @@ function createElement(tag, attr, attr_node){
 }
 // init head
 function DetectHandHeldLoaded(){
-    DetectHandHeld('/MOBILE/index.html')
+    DetectHandHeld(main.mobile_directory)
 }
 head.appendChild(createElement('script', [['src', '/JS/handheld-detector.js']]))
 fetch(main.bg.size)
