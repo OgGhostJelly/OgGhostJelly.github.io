@@ -1,7 +1,7 @@
 @font-face { font-family: pixel; src: url("/FONT/pixel.otf"); }
 body {
     margin-left: 10%;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: pixel
 }
 .main-header {

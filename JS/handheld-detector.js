@@ -5,3 +5,4 @@ function DetectHandHeld(fetch_item){
         .then(html => document.documentElement.innerHTML = html);
     }
 }
+try{DetectHandHeldLoaded()}catch{}

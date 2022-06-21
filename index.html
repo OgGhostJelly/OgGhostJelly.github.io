@@ -1,61 +1,40 @@
-<!--
-    Todo List
-    - website gen 
-
-    - ball velocity
-    - ball click pushes it
-    - ball respawn button to bring ball back
--->
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <script src="/JS/handheld-detector.js"></script><script>DetectHandHeld('/MOBILE/index.html')</script>
+<html>
+    <script>
+        var main = {
+            index_style_directory: '/CSS/index.css',
 
-        <link rel="stylesheet" type="text/css" href="/CSS/blacknwhite.css">
-        <script src="/JS/index/background.js"></script>
-        <link rel="stylesheet" type="text/css" href="/CSS/index.css">
-        <link rel="shortcut icon" href="/IMG/index/favicon.gif" type="image/x-icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <meta property="og:title" content="OgGhostJelly Hangout">
-        <meta property="og:description" content="ebic cool websiiii!!!!!!">
-        <meta property="og:image" content="/IMG/index/favicon.gif">
-
-        <title>OgGhostJelly Hangout</title>
-    </head>
-    <body>
-        <!--Settings-->
-        <script>
-            let link = [
+            title: 'OgGhostJelly Hangout',
+            header: 'OgGhostJelly Hangout',
+            description: 'welcome to my hangout',
+            style_directory: '/CSS/blacknwhite.css',
+            link_icon_directory: '/IMG/index/link-icon/',
+            website_directory: '/IMG/index/website/',
+            favicon: '/IMG/index/favicon.gif',
+            bg: {
+                size: '/IMG/index/bg/bg.json',
+                directory: '/IMG/index/bg/',
+                file_type: 'png',
+                file_name: 'bg',
+            },
+            link: [
                 { link: 'https://github.com/OgGhostJelly', src: 'github.png' },
                 { link: 'https://ogghostjelly.itch.io/', src: 'itch.png' },
                 { link: 'https://scratch.mit.edu/users/OgGhostJelly/', src: 'scratch.png' },
                 { link: 'https://www.youtube.com/channel/UCD1IYOrmoXBFBArQ4lSxUYQ', src: 'youtube.png' },
                 { link: 'https://coderserif.github.io', src: 'serif.png' },
-            ]
-            let web = [
-                { link: '/', src: 'old-favicon.gif', title_text: 'Website1' },
+            ],
+            web: [
+                { link: '/', src: 'calculator.gif', title_text: 'Calculator' },
                 { link: '/', src: 'old-favicon.gif', title_text: 'Website2' },
                 { link: '/', src: 'old-favicon.gif', title_text: 'Website3' },
-                { break: true },
+                null,
                 { link: '/', src: 'old-favicon.gif', title_text: 'Website4' },
                 { link: '/', src: 'old-favicon.gif', title_text: 'Website5' },
                 { link: '/', src: 'old-favicon.gif', title_text: 'Website6' },
                 { link: '/', src: 'old-favicon.gif', title_text: 'Website7' },
-            ]
-        </script>
-
-        <!--link icon-->
-        <h1 class="main-header">
-            <t>OgGhostJelly Hangout</t>
-            <div class="link-icon-container"></div>
-            <script src="/JS/index/link-icon-generator.js"></script>
-        </h1>
-        <!--websites-->
-        <div class="website-container"></div>
-        <script src="/JS/index/website-generator.js"></script>
-        <script src="/JS/index/title-change.js"></script>
-        <img class="drag" src="/IMG/index/favicon.gif">
-        <script src="/JS/dragabble.js"></script><script>dragElement(document.getElementsByClassName('drag')[0])</script>
-    </body>
+            ],
+        }
+    </script>
+    <script src="/JS/index-generator.js"></script>
 </html>

@@ -38,3 +38,4 @@ function dragElement(elmnt) {
       document.onmousemove = null;
     }
   }
+  try{dragElementLoaded()}catch{}
