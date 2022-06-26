@@ -20,7 +20,6 @@
 .website-container {
     display: block;
     text-align: center;
-    flex-wrap: wrap;
     margin-right: 9vw;
     margin-top: 6vw;
 }
@@ -38,10 +37,6 @@
 }
 .website:active {
     scale: 95%;
-}
-.break {
-    flex-basis: 100%;
-    height: 0;
 }
 
 .drag {

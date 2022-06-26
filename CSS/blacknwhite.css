@@ -7,7 +7,6 @@ body {
 .main-header {
     user-select: none;
     font-size: 5vw;
-    margin-top: 4%;
     display:inline;
     cursor: default;
 }

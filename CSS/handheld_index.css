@@ -1,0 +1,37 @@
+.main-header {
+    font-size: 10vw;
+    text-align: center;
+}
+.link-icon-container {
+    text-align: center;
+}
+.link-icon {
+    user-select: none;
+    width: 9.625vw;
+    height: 6.875vw;
+    scale: 100%;
+    transition: scale 0.5s;
+}
+.link-icon:active {
+    transition: scale 0.2s;
+    scale: 95%;
+}
+
+.website-container {
+    display: block;
+    text-align: center;
+    margin-top: 16.5vw;
+}
+.website {
+    user-select: none;
+    width: 24.75vw;
+    transition: width 0.5s;
+    height: 24.75vw;
+    border-radius: 2.75vw;
+    margin-right: 1.375vw;
+    margin-left: 1.375vw;
+    margin-top: 1.375vw;
+}
+.website:active {
+    scale: 95%;
+}

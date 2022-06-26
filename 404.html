@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="/CSS/blacknwhite.css">
+    </script>
+        <script>
+            var main = {
+                bg: {
+                size: '/IMG/index/bg/bg.json',
+                directory: '/IMG/index/bg/',
+                file_type: 'png',
+                file_name: 'bg',
+            },
+            }
+            function DetectHandHeld(bool){
+                let link = document.createElement('link')
+                link.rel = 'stylesheet'
+                link.type = 'text/css'
+                link.href = !bool ? '/CSS/pc_index.css' : '/CSS/handheld_index.css'
+                document.head.appendChild(link)
+            }
+        </script>
+        <script src="/JS/index/background.js"></script><script src="/JS/handheld-detector.js"></script>
+    </head>
+    <body>
+        <h1 class="main-header">404: This Page Doesn't Exist</h1>
+    </body>
+</html>
