@@ -1,0 +1,1 @@
+try{DetectHandHeld(screen.height > screen.width)}catch{}

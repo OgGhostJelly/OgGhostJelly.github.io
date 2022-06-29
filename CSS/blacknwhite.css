@@ -1,0 +1,12 @@
+@font-face { font-family: pixel; src: url("/FONT/pixel.otf"); }
+body {
+    margin-left: 10%;
+    color: rgb(255, 255, 255);
+    font-family: pixel
+}
+.main-header {
+    user-select: none;
+    font-size: 5vw;
+    display:inline;
+    cursor: default;
+}

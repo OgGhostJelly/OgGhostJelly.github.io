@@ -1,0 +1,53 @@
+.link-icon-container {
+    float: right;
+    margin-right: 10%;
+}
+.link-icon {
+    user-select: none;
+    width: 3.5vw;
+    height: 2.5vw;
+    scale: 100%;
+    transition: scale 0.5s;
+}
+.link-icon:hover {
+    scale: 115%;
+}
+.link-icon:active {
+    transition: scale 0.2s;
+    scale: 95%;
+}
+
+.website-container {
+    display: block;
+    text-align: center;
+    margin-right: 9vw;
+    margin-top: 6vw;
+}
+.website {
+    user-select: none;
+    width: 9vw;
+    transition: width 0.5s;
+    height: 9vw;
+    border-radius: 1vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+}
+.website:hover {
+    width: 11vw;
+}
+.website:active {
+    scale: 95%;
+}
+
+.drag {
+    position: absolute;
+    width: 4.5vw;
+    height: 4.5vw;
+    cursor: pointer;
+    border-radius: 2vw;
+    scale: 100%;
+    transition: scale 0.5s;
+}
+.drag:hover {
+    scale: 115%;
+}
